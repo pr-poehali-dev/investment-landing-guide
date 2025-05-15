@@ -156,7 +156,7 @@ const Index = () => {
       <section className="relative bg-gradient-to-r from-[#F9C0DD] to-[#FFDBE9] text-[#8D224F] px-4 py-16 md:py-24">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-rubik">
-            Как начать инвестировать с нуля: полное руководство для начинающих
+            Как начать инвестировать новичку: пошаговая стратегия
           </h1>
           <div className="text-lg md:text-xl max-w-3xl">
             <p className="mb-4">
