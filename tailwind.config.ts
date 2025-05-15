@@ -1,12 +1,13 @@
-import { defineConfig } from "tailwindcss";
 
-export default defineConfig({
+import type { Config } from "tailwindcss";
+
+export default {
   darkMode: ["class"],
   content: [
-    "./pages/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
   ],
   theme: {
     container: {
@@ -18,8 +19,8 @@ export default defineConfig({
     },
     extend: {
       fontFamily: {
-        rubik: ["Rubik", "sans-serif"],
-        "open-sans": ["Open Sans", "sans-serif"],
+        'rubik': ['Rubik', 'sans-serif'],
+        'open-sans': ['Open Sans', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -77,10 +78,7 @@ export default defineConfig({
           to: { height: "var(--radix-accordion-content-height)", opacity: "1" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-            opacity: "1",
-          },
+          from: { height: "var(--radix-accordion-content-height)", opacity: "1" },
           to: { height: "0", opacity: "0" },
         },
       },
@@ -91,4 +89,4 @@ export default defineConfig({
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
-});
+} satisfies Config;
