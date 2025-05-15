@@ -153,16 +153,17 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-[#F6F6F7]">
       {/* Hero section */}
-      <section className="relative bg-gradient-to-r from-[#F9C0DD] to-[#FFDBE9] text-[#8D224F] px-4 py-16 md:py-24">
+      <section className="relative bg-gradient-to-r from-[#C1E8D3] to-[#D9F2E6] text-[#2D644C] px-4 py-16 md:py-24">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-rubik">
             Как начать инвестировать новичку: пошаговая стратегия
           </h1>
           <div className="text-lg md:text-xl max-w-3xl">
             <p className="mb-4">
-              Инвестиции — это вложение денег сегодня с целью получить больше
-              денег в будущем. Это один из ключевых инструментов для достижения
-              финансовой свободы и обеспечения своего будущего.
+              Инвестиции — это вложение денег в активы, чтобы со временем
+              получить прибыль. Это способ заставить ваши сбережения работать и
+              приумножаться, даже пока вы спите. Главное — начать с малого и
+              действовать осознанно.
             </p>
             <p className="mb-4">
               В современном мире, где инфляция постоянно обесценивает деньги, а
